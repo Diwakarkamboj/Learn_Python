@@ -1,0 +1,9 @@
+Name: Diwakar
+ Age: 21
+ Company:  Microsoft
+Name: Rohan
+ Age: 35
+ Company:  Microsoft
+Name: Ram
+ Age: 32
+ Company:  Apple
