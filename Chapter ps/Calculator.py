@@ -1,17 +1,17 @@
 class Calculator:
-    
+
     def __init__(self, num, operationType):
         self.num = num
         self.operationType = operationType
 
     def square(self):
-        return self.num ** 2
+        return self.num**2
 
     def cube(self):
-        return self.num ** 3
+        return self.num**3
 
     def squareRoot(self):
-        return self.num ** 0.5
+        return self.num**0.5
 
     def calculate(self):
         if self.operationType == "square":
@@ -23,11 +23,13 @@ class Calculator:
         else:
             return "Invalid Opeartion"
 
+
 num = int(input("Enter a number: "))
-operation = input("Enter which operation you want to perform: \"square\" \"cube\" \"squareroot\": ")
+operation = input(
+    'Enter which operation you want to perform: "square" "cube" "squareroot": '
+)
 
 calc = Calculator(num, operation)
 
 result = calc.calculate()
 print(result)
-        
